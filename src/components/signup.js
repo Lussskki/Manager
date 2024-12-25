@@ -10,7 +10,7 @@ const Signup = ({ handleSignup = () => {}, toggleForm = () => {} }) => {
   });
 
     // Define your backend URL (Replace with your Render backend URL)
-    const backendUrl = `http://localhost:3001`; // Update this with your backend URL
+    const backendUrl = `https://manager-qbgd.onrender.com`; // Update this with your backend URL
 
   const [message, setMessage] = useState('');
 

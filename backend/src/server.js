@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3001
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const allowedOrigin = 'http://localhost:3000' || 'http://localhost:3001'
+const allowedOrigin = process.env.FRONTEND_URL|| 'http://localhost:3001'
 const allowedMethods = process.env.ALLOWED_METHODS ? process.env.ALLOWED_METHODS.split(',') : ['GET', 'POST', 'DELETE']
 
 app.use(cors({

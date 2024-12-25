@@ -10,7 +10,7 @@ const Login = ({ handleLogin, toggleForm }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   // Define your backend URL (Replace with your Render backend URL)
-  const backendUrl = `http://localhost:3001`;  // Update this with your backend URL
+  const backendUrl = `https://manager-qbgd.onrender.com`;  // Update this with your backend URL
 
   // Handle form input changes
   const handleChange = (e) => {
